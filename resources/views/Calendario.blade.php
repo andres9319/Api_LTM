@@ -42,13 +42,49 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">Nosotros</a></li>
+          <li><a class="nav-link scrollto active" href="/">Home</a></li>
           
-          <li><a class="nav-link scrollto " href="#portfolio">Comunidad</a></li>
-          <li><a class="nav-link scrollto" href="#team">Equipo</a></li>
-          
-          <li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
+          <li><a class="nav-link scrollto " href="prueba">Calendario</a></li>
+          <li><a class="nav-link scrollto" href="">Club LTM</a></li>
+          <!-- ======= Inicio menu desplegable ======= -->  
+          <li class="dropdown"><a href="prueba"><span>Disciplinas</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Trick-Line</a></li>             
+              <li><a href="#">Long-Line</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Otros</a></li>
+              <li class="dropdown"><a href="#"><span>Protocolos</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Montaje</a></li>
+                  <li><a href="#">Seguridad</a></li>
+                  <li><a href="#">Cuidados</a></li>
+                  <li><a href="#">Medio Ambiente</a></li>
+                  <li><a href="#">Otros</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <!-- ======= fin menu desplegable ======= -->        
+          <!-- ======= Inicio menu desplegable ======= -->  
+          <li class="dropdown"><a href=""><span>Informacion</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Seguridad del deporte</a></li>
+              
+              <li><a href="#">Protocolos</a></li>
+              <li><a href="#">Protocolo de acoso</a></li>
+              <li><a href="#">Eventos</a></li>
+              <li class="dropdown"><a href="#"><span>Opcion desplegable</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Opcion 1</a></li>
+                  <li><a href="#">Opcion 2</a></li>
+                  <li><a href="#">Opcion 3</a></li>
+                  <li><a href="#">Opcion 4</a></li>
+                  <li><a href="#">Opcion 5</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <!-- ======= fin menu desplegable ======= -->          
           <!-- ======= Inicio menu desplegable ======= -->  
           <li class="dropdown"><a href=""><span>Riders</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -69,25 +105,8 @@
             </ul>
           </li>
           <!-- ======= fin menu desplegable ======= -->          
-          <li class="dropdown"><a href=""><span>Disciplinas</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Trick-Line</a></li>             
-              <li><a href="#">Long-Line</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Otros</a></li>
-              <li class="dropdown"><a href="#"><span>Protocolos</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Montaje</a></li>
-                  <li><a href="#">Seguridad</a></li>
-                  <li><a href="#">Cuidados</a></li>
-                  <li><a href="#">Medio Ambiente</a></li>
-                  <li><a href="#">Otros</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li><a href="/">Hazte Socio</a></li>
-          <li><a class="getstarted scrollto" href="">Login Socios</a></li>
+          
+          <li><a class="getstarted scrollto" href="/admin">Login</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('Vista');
 });
+
+/* rutas 'nombre en explorador' retorna 'nombrevista sin .blade'*/
 Route::get('prueba', function () {
-    return view('PostPrueba');
+    return view('Calendario');
 });
